@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(201, 201, 201);
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;        
+    font-size: 40px;
+    margin-bottom: 150px;
+    margin-top: 20px;
+}
+
+button {
+    height: 95px;
+    width: 76px;
+    margin: 2px;
+    flex-grow: 1;
+    text-align: center;
+
+    font-size: 15px;
+    background-color: rgb(201, 201, 201, 0.692);    
+    color: black;
+    display: inline-block;
+}
+
+button:hover{
+    background-color: whitesmoke;
+}
+
+.calculator {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+.display {
+    width: 400px;
+    height: 74px;
+    text-align: end;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 30px;
+    color: honeydew;
+    line-height: 80px;
+    padding-right: 2px;
+}
+
+.smallDisplay {
+    width: 400px;
+    height: 24px;
+    text-align: end;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 12px;
+    color: honeydew;
+    line-height: 20px;
+    padding-right: 2px;
+}
+
+.btnZero {
+    width: 152px;
+    flex-grow: 2;
+}
+
+.btnClear {
+    width: 152px;
+    background-color: whitesmoke;
+    flex-grow: 2;
+}
+
+.btnClear:hover {
+    background-color: rgb(201, 201, 201, 0.692)
+}
+
+.btnEqual {
+    width: 152px;
+    background-color: whitesmoke;
+    flex-grow: 2;
+}
+
+.btnEqual:hover {
+    background-color: rgb(201, 201, 201, 0.692)
+}
+
+#operator{
+    background-color: whitesmoke;
+}
+
+#operator:hover{
+    background-color: rgb(201, 201, 201, 0.692)
+}
